@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #6c63ff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+        .blog-post {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .blog-post h2 {
+            color: #6c63ff;
+        }
+        .blog-post p {
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+        @media(max-width: 600px){
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Blog</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="blog-post">
+        <h2>My First Blog Post</h2>
+        <p>Published on: August 22, 2025</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet, nunc ut rhoncus ullamcorper, justo quam tincidunt nunc, ut facilisis libero lectus vel leo.</p>
+    </div>
+
+    <div class="blog-post">
+        <h2>Another Blog Post</h2>
+        <p>Published on: August 20, 2025</p>
+        <p>Aliquam erat volutpat. Quisque nec velit sit amet nulla hendrerit posuere. Fusce sit amet pharetra metus. Sed cursus, metus id aliquam finibus, urna lacus efficitur ex, a rutrum velit leo eget sapien.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
